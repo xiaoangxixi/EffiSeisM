@@ -14,7 +14,7 @@
 
 ## EffiSeisM Architecture
 <p align="center">
-  <img src="https://raw.githubusercontent.com/senli1073/SeisT/main/images/SeisT_Architecture.png">
+  <img src="EffiSeisM_Architecture.png">
 </p>
 
 ## Introduction
