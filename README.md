@@ -1,9 +1,8 @@
 
 
-- [SeisT Architecture](#seist-architecture)
-- [Introduction](#introduction)
+- [EffiSeisM Architecture](#seist-architecture)
+
 - [Usage](#usage)
-  - [Data preparation](#data-preparation)
   - [Training](#training)
   - [Fine-tuning](#fine-tuning)
   - [Testing](#testing)
@@ -87,37 +86,16 @@ The following table provides the pre-trained checkpoints used in the paper:
 
 <tr><td align="left">Detection & Phase Picking</td>
 <td align="left">DiTing</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_dpk_diting.pth">download</a></td>
-
-<tr><td align="left">First-Motion Polarity Classification</td>
-<td align="left">DiTing</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_pmp_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_m_pmp_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_l_pmp_diting.pth">download</a></td>
-
-<tr><td align="left">Back-Azimuth Estimation</td>
-<td align="left">DiTing</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_baz_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_m_baz_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_l_baz_diting.pth">download</a></td>
+<td align="center"><a href="checkpoints/EffiSeisM_dpk_diting.pth">download</a></td>
+  
+<tr><td align="left">Detection & Phase Picking</td>
+<td align="left">DiTingv2</td>
+<td align="center"><a href="checkpoints/EffiSeisM_dpk_ditingv2.pth">download</a></td>
 
 <tr><td align="left">Magnitude Estimation</td>
 <td align="left">DiTing</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_emg_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_m_emg_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_l_emg_diting.pth">download</a></td>
+<td align="center"><a href="checkpoints/EffiSeisM_emg_diting.pth">download</a></td>
 
-<tr><td align="left">Magnitude Estimation</td>
-<td align="left">PNW</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_emg_pnw.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_m_emg_pnw.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_l_emg_pnw.pth">download</a></td>
-
-<tr><td align="left">Epicentral Distance Estimation</td>
-<td align="left">DiTing</td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_s_dis_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_m_dis_diting.pth">download</a></td>
-<td align="center"><a href="https://raw.githubusercontent.com/senli1073/SeisT/main/pretrained/seist_l_dis_diting.pth">download</a></td>
 
 </tbody></table>
 
@@ -176,9 +154,6 @@ The baseline models used in this paper:
 
 - **EQTransformer**<br/>
   *Mousavi, S. M., Ellsworth, W. L., Zhu, W., Chuang, L. Y., & Beroza, G. C. (2020). Earthquake transformer—an attentive deep-learning model for simultaneous earthquake detection and phase picking. Nature communications, 11(1), 3952.*
-
-- **DiTingMotion**<br/>
-  *Zhao, M., Xiao, Z., Zhang, M., Yang, Y., Tang, L., & Chen, S. (2023). DiTingMotion: A deep-learning first-motion-polarity classifier and its application to focal mechanism inversion. Frontiers in Earth Science, 11, 1103914.*
 
 - **MagNet**<br/>
   *Mousavi, S. M., & Beroza, G. C. (2020). A machine‐learning approach for earthquake magnitude estimation. Geophysical Research Letters, 47(1), e2019GL085976.*
