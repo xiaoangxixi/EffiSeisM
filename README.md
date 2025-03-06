@@ -86,18 +86,19 @@ The following table provides the pre-trained checkpoints used in the paper:
 
 <tr><td align="left">Detection & Phase Picking</td>
 <td align="left">DiTing</td>
-<td align="center"><a href="checkpoints/EffiSeisM_dpk_diting.pth">download</a></td>
-  
+<td align="center"><a href="https://github.com/xiaoangxixi/EffiSeisM/blob/main/checkpoints/EffiSeisM_dpk_diting.pth?raw=true" download>download</a></td>
+</tr>
+
 <tr><td align="left">Detection & Phase Picking</td>
 <td align="left">DiTingv2</td>
-<td align="center"><a href="checkpoints/EffiSeisM_dpk_ditingv2.pth">download</a></td>
+<td align="center"><a href="https://github.com/xiaoangxixi/EffiSeisM/blob/main/checkpoints/EffiSeisM_dpk_ditingv2.pth?raw=true" download>download</a></td>
+</tr>
 
 <tr><td align="left">Magnitude Estimation</td>
 <td align="left">DiTing</td>
-<td align="center"><a href="checkpoints/EffiSeisM_emg_diting.pth">download</a></td>
+<td align="center"><a href="https://github.com/xiaoangxixi/EffiSeisM/blob/main/checkpoints/EffiSeisM_emg_diting.pth?raw=true" download>download</a></td>
+</tr>
 
-
-</tbody></table>
 
 Use the "--checkpoint" argument to pass in the path of the pre-training weights.
 
