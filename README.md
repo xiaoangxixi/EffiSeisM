@@ -109,7 +109,7 @@ Use the "--checkpoint" argument to pass in the path of the pre-training weights.
   python main.py \
     --seed 0 \
     --mode "test" \
-    --model-name "seist_m_dpk" \
+    --model-name "EffiSeisM_dpk" \
     --log-base "./logs" \
     --device "cuda:0" \
     --data "/root/data/Datasets/Diting50hz" \
@@ -130,7 +130,7 @@ Use the "--checkpoint" argument to pass in the path of the pre-training weights.
     main.py \
       --seed 0 \
       --mode "test" \
-      --model-name "seist_m_dpk" \
+      --model-name "EffiSeisM_dpk" \
       --log-base "./logs" \
       --data "/root/data/Datasets/Diting50hz" \
       --dataset-name "diting" \
